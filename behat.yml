@@ -1,0 +1,12 @@
+# behat.yml
+default:
+    extensions:
+        Behat\MinkExtension\Extension:
+            base_url: http://test-withrobots.pantheon.io
+            goutte: ~
+            selenium2: ~
+            show_cmd: "/Applications/Firefox.app/Contents/MacOS/firefox %s"
+
+
+imports:
+  - behat.local.yml
